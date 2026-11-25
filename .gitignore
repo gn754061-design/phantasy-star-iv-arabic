@@ -1,0 +1,26 @@
+# Game ROMs and copyrighted binaries (NEVER commit)
+*.md
+!README.md
+!docs/*.md
+*.gen
+*.smd
+*.rom
+*.iso
+*.chd
+*.cue
+*.p
+*.lst
+*.srm
+*.sav
+*.state*
+
+# Build artifacts and temporary files
+original/
+work/
+build/
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+.DS_Store
+Thumbs.db
